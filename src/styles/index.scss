@@ -7,8 +7,8 @@ html,body { height:100%;background:black; }
     top: 50%;
     z-index: 0;
     transform: rotate(0.6turn);
-}
-.fluid {
+
+  .fluid {
     background-image:url("../assets/hexagon.png");
     background-size:contain;
     height:112px; width:105px;
@@ -72,14 +72,58 @@ html,body { height:100%;background:black; }
     0%,100% { opacity:0.05; }
     50% { opacity:1; }
   }
+}
 
 .in{
     position: fixed;
     z-index: 1;
+    width: 100%;
     font-size: 6rem;
     font-weight: 200;
     color: aliceblue;
     top: 40%;
-    left: 40%;
+    left: 36%;
     font-family: 'Quicksand', sans-serif;
+    -webkit-animation:opacity 2s ease-in-out infinite;
+    animation:opacity 2s ease-in-out infinite;
 }
+
+
+.social-media-container{
+  width: 100%;
+  position: fixed;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  top: 60%;
+  left: 0;
+  z-index: 10;
+  color:  #5cd4fc  ;
+
+  h4{
+    font-size: 3rem;
+    font-weight: 200;
+    color:  #5cd4fc  ;
+    font-family: 'Quicksand', sans-serif;
+   
+  }
+
+          a {
+              display: inline-block;
+              text-decoration: none;
+              font-size: 2rem;
+              margin: 10px;
+              text-decoration-skip-ink: auto;
+              color: inherit;
+              position: relative;
+              font-family: 'Quicksand', sans-serif;
+          }
+          a:hover{
+              color: aliceblue;
+              transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+          }
+      
+  
+  
+}
+
