@@ -81,7 +81,7 @@ html,body { height:100%;background:black; }
     font-size: 6rem;
     font-weight: 200;
     color: aliceblue;
-    top: 40%;
+    top: 35%;
     left: 36%;
     font-family: 'Quicksand', sans-serif;
     -webkit-animation:opacity 2s ease-in-out infinite;
@@ -91,6 +91,7 @@ html,body { height:100%;background:black; }
 
 .social-media-container{
   width: 100%;
+    margin: 0 auto;
   position: fixed;
   flex-direction: row;
   flex-wrap: wrap;
