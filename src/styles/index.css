@@ -63,7 +63,7 @@ html,body { height:100%;background:#0C152B; }
   box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
   background-image: url('../assets/Greni3.png');
   text-align: center;
-
+}
   
   .in{
     width: 100%;
@@ -116,6 +116,6 @@ html,body { height:100%;background:#0C152B; }
             color: #fff;
           }
   
-        }
+     
 
 
